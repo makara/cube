@@ -1,0 +1,30 @@
+name = "Cube"
+description = "Spaces-aware front-end theme based on Rubik."
+base theme = "rubik"
+core = "7.x"
+engine = "phptemplate"
+
+stylesheets[screen][] = "style.css"
+
+; System regions (html.tpl.php)
+regions[page_top] = "Page top"
+regions[page_bottom] = "Page bottom"
+
+; Custom regions (page.tpl.php)
+regions[content] = "Content"
+regions[help] = "Help"
+regions[header] = "Header"
+regions[footer] = "Footer"
+regions[sidebar_first] = "Sidebar first"
+regions[sidebar_second] = "Sidebar second"
+regions[highlighted] = "Highlighted"
+
+; DesignKit
+designkit[color][background] = "#0088cc"
+designkit[logo][logo] = "imagecache_scale:200x50"
+designkit[logo][print] = "imagecache_scale:600x150"
+
+; Default layout
+layouts[default][name] = "Default"
+layouts[default][description] = "Simple one column page."
+layouts[default][template] = "page"
