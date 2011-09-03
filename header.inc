@@ -32,7 +32,7 @@
     <?php endif; ?>
     <?php if (!empty($action_links)): ?>
       <div class='page-tabs limiter clear-block'>
-        <ul class='action-links links clearfix'><?php print render($action_links) ?></ul>
+        <ul class='secondary-tabs links clearfix'><?php print render($action_links) ?></ul>
       </div>
     <?php endif; ?>
   </div>
