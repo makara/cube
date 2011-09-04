@@ -14,6 +14,7 @@
     <?php endif; ?>
   </div>
   <div id='right' class='clearfix'>
+    <?php if (!empty($page['sidebar_first'])) print render($page['sidebar_first']) ?>
     <?php if (!empty($page['sidebar_second'])) print render($page['sidebar_second']) ?>
   </div>
 </div>
